@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF24167D28FCF81400AC9C87 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DF24167C28FCF81400AC9C87 /* README.md */; };
 		DF86ECAB28FC894800F80EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86ECAA28FC894800F80EAD /* AppDelegate.swift */; };
 		DF86ECAF28FC894800F80EAD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECAD28FC894800F80EAD /* Main.html */; };
 		DF86ECB128FC894800F80EAD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECB028FC894800F80EAD /* Icon.png */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF24167C28FCF81400AC9C87 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DF86ECA728FC894800F80EAD /* MetNews.extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetNews.extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF86ECAA28FC894800F80EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF86ECAE28FC894800F80EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		DF86EC9E28FC894800F80EAD = {
 			isa = PBXGroup;
 			children = (
+				DF24167C28FCF81400AC9C87 /* README.md */,
 				DF86ECA928FC894800F80EAD /* MetNews.extension */,
 				DF86ECC828FC894900F80EAD /* MetNews.extension Extension */,
 				DF86ECA828FC894800F80EAD /* Products */,
@@ -251,6 +254,7 @@
 				DF86ECB128FC894800F80EAD /* Icon.png in Resources */,
 				DF86ECBA28FC894800F80EAD /* Main.storyboard in Resources */,
 				DF86ECB528FC894800F80EAD /* Script.js in Resources */,
+				DF24167D28FCF81400AC9C87 /* README.md in Resources */,
 				DF86ECAF28FC894800F80EAD /* Main.html in Resources */,
 				DF86ECBC28FC894900F80EAD /* Assets.xcassets in Resources */,
 				DF86ECB328FC894800F80EAD /* Style.css in Resources */,
