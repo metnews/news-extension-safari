@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF86ECAB28FC894800F80EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86ECAA28FC894800F80EAD /* AppDelegate.swift */; };
+		DF86ECAF28FC894800F80EAD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECAD28FC894800F80EAD /* Main.html */; };
+		DF86ECB128FC894800F80EAD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECB028FC894800F80EAD /* Icon.png */; };
+		DF86ECB328FC894800F80EAD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECB228FC894800F80EAD /* Style.css */; };
+		DF86ECB528FC894800F80EAD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECB428FC894800F80EAD /* Script.js */; };
+		DF86ECB728FC894800F80EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86ECB628FC894800F80EAD /* ViewController.swift */; };
+		DF86ECBA28FC894800F80EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECB828FC894800F80EAD /* Main.storyboard */; };
+		DF86ECBC28FC894900F80EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECBB28FC894900F80EAD /* Assets.xcassets */; };
+		DF86ECC528FC894900F80EAD /* MetNews.extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DF86ECC428FC894900F80EAD /* MetNews.extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF86ECCA28FC894900F80EAD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86ECC928FC894900F80EAD /* SafariWebExtensionHandler.swift */; };
+		DF86ECDF28FC894900F80EAD /* dist in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECD728FC894900F80EAD /* dist */; };
+		DF86ECE028FC894900F80EAD /* icons in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECD828FC894900F80EAD /* icons */; };
+		DF86ECE128FC894900F80EAD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECD928FC894900F80EAD /* manifest.json */; };
+		DF86ECE228FC894900F80EAD /* icons_active in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECDA28FC894900F80EAD /* icons_active */; };
+		DF86ECE328FC894900F80EAD /* icons_normal in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECDB28FC894900F80EAD /* icons_normal */; };
+		DF86ECE428FC894900F80EAD /* config.ts in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECDC28FC894900F80EAD /* config.ts */; };
+		DF86ECE528FC894900F80EAD /* content_scripts in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECDD28FC894900F80EAD /* content_scripts */; };
+		DF86ECE628FC894900F80EAD /* background_scripts in Resources */ = {isa = PBXBuildFile; fileRef = DF86ECDE28FC894900F80EAD /* background_scripts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF86ECC628FC894900F80EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF86EC9F28FC894800F80EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF86ECC328FC894900F80EAD;
+			remoteInfo = "MetNews.extension Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF86ECD228FC894900F80EAD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DF86ECC528FC894900F80EAD /* MetNews.extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF86ECA728FC894800F80EAD /* MetNews.extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetNews.extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF86ECAA28FC894800F80EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF86ECAE28FC894800F80EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DF86ECB028FC894800F80EAD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DF86ECB228FC894800F80EAD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DF86ECB428FC894800F80EAD /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DF86ECB628FC894800F80EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF86ECB928FC894800F80EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF86ECBB28FC894900F80EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF86ECBD28FC894900F80EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF86ECBE28FC894900F80EAD /* MetNews_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetNews_extension.entitlements; sourceTree = "<group>"; };
+		DF86ECBF28FC894900F80EAD /* MetNews.extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetNews.extension.entitlements; sourceTree = "<group>"; };
+		DF86ECC428FC894900F80EAD /* MetNews.extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MetNews.extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF86ECC928FC894900F80EAD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DF86ECCB28FC894900F80EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF86ECCC28FC894900F80EAD /* MetNews_extension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetNews_extension_Extension.entitlements; sourceTree = "<group>"; };
+		DF86ECD728FC894900F80EAD /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = "../../news-extension/src/dist"; sourceTree = "<group>"; };
+		DF86ECD828FC894900F80EAD /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../news-extension/src/icons"; sourceTree = "<group>"; };
+		DF86ECD928FC894900F80EAD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../news-extension/src/manifest.json"; sourceTree = "<group>"; };
+		DF86ECDA28FC894900F80EAD /* icons_active */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons_active; path = "../../news-extension/src/icons_active"; sourceTree = "<group>"; };
+		DF86ECDB28FC894900F80EAD /* icons_normal */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons_normal; path = "../../news-extension/src/icons_normal"; sourceTree = "<group>"; };
+		DF86ECDC28FC894900F80EAD /* config.ts */ = {isa = PBXFileReference; lastKnownFileType = text; name = config.ts; path = "../../news-extension/src/config.ts"; sourceTree = "<group>"; };
+		DF86ECDD28FC894900F80EAD /* content_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = content_scripts; path = "../../news-extension/src/content_scripts"; sourceTree = "<group>"; };
+		DF86ECDE28FC894900F80EAD /* background_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = background_scripts; path = "../../news-extension/src/background_scripts"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF86ECA428FC894800F80EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF86ECC128FC894900F80EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF86EC9E28FC894800F80EAD = {
+			isa = PBXGroup;
+			children = (
+				DF86ECA928FC894800F80EAD /* MetNews.extension */,
+				DF86ECC828FC894900F80EAD /* MetNews.extension Extension */,
+				DF86ECA828FC894800F80EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF86ECA828FC894800F80EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF86ECA728FC894800F80EAD /* MetNews.extension.app */,
+				DF86ECC428FC894900F80EAD /* MetNews.extension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF86ECA928FC894800F80EAD /* MetNews.extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF86ECAA28FC894800F80EAD /* AppDelegate.swift */,
+				DF86ECB628FC894800F80EAD /* ViewController.swift */,
+				DF86ECB828FC894800F80EAD /* Main.storyboard */,
+				DF86ECBB28FC894900F80EAD /* Assets.xcassets */,
+				DF86ECBD28FC894900F80EAD /* Info.plist */,
+				DF86ECBE28FC894900F80EAD /* MetNews_extension.entitlements */,
+				DF86ECBF28FC894900F80EAD /* MetNews.extension.entitlements */,
+				DF86ECAC28FC894800F80EAD /* Resources */,
+			);
+			path = MetNews.extension;
+			sourceTree = "<group>";
+		};
+		DF86ECAC28FC894800F80EAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF86ECAD28FC894800F80EAD /* Main.html */,
+				DF86ECB028FC894800F80EAD /* Icon.png */,
+				DF86ECB228FC894800F80EAD /* Style.css */,
+				DF86ECB428FC894800F80EAD /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF86ECC828FC894900F80EAD /* MetNews.extension Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF86ECD628FC894900F80EAD /* Resources */,
+				DF86ECC928FC894900F80EAD /* SafariWebExtensionHandler.swift */,
+				DF86ECCB28FC894900F80EAD /* Info.plist */,
+				DF86ECCC28FC894900F80EAD /* MetNews_extension_Extension.entitlements */,
+			);
+			path = "MetNews.extension Extension";
+			sourceTree = "<group>";
+		};
+		DF86ECD628FC894900F80EAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF86ECD728FC894900F80EAD /* dist */,
+				DF86ECD828FC894900F80EAD /* icons */,
+				DF86ECD928FC894900F80EAD /* manifest.json */,
+				DF86ECDA28FC894900F80EAD /* icons_active */,
+				DF86ECDB28FC894900F80EAD /* icons_normal */,
+				DF86ECDC28FC894900F80EAD /* config.ts */,
+				DF86ECDD28FC894900F80EAD /* content_scripts */,
+				DF86ECDE28FC894900F80EAD /* background_scripts */,
+			);
+			name = Resources;
+			path = "MetNews.extension Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF86ECA628FC894800F80EAD /* MetNews.extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF86ECD328FC894900F80EAD /* Build configuration list for PBXNativeTarget "MetNews.extension" */;
+			buildPhases = (
+				DF86ECA328FC894800F80EAD /* Sources */,
+				DF86ECA428FC894800F80EAD /* Frameworks */,
+				DF86ECA528FC894800F80EAD /* Resources */,
+				DF86ECD228FC894900F80EAD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF86ECC728FC894900F80EAD /* PBXTargetDependency */,
+			);
+			name = MetNews.extension;
+			productName = MetNews.extension;
+			productReference = DF86ECA728FC894800F80EAD /* MetNews.extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF86ECC328FC894900F80EAD /* MetNews.extension Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF86ECCF28FC894900F80EAD /* Build configuration list for PBXNativeTarget "MetNews.extension Extension" */;
+			buildPhases = (
+				DF86ECC028FC894900F80EAD /* Sources */,
+				DF86ECC128FC894900F80EAD /* Frameworks */,
+				DF86ECC228FC894900F80EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetNews.extension Extension";
+			productName = "MetNews.extension Extension";
+			productReference = DF86ECC428FC894900F80EAD /* MetNews.extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF86EC9F28FC894800F80EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DF86ECA628FC894800F80EAD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DF86ECC328FC894900F80EAD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DF86ECA228FC894800F80EAD /* Build configuration list for PBXProject "MetNews.extension" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF86EC9E28FC894800F80EAD;
+			productRefGroup = DF86ECA828FC894800F80EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF86ECA628FC894800F80EAD /* MetNews.extension */,
+				DF86ECC328FC894900F80EAD /* MetNews.extension Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF86ECA528FC894800F80EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86ECB128FC894800F80EAD /* Icon.png in Resources */,
+				DF86ECBA28FC894800F80EAD /* Main.storyboard in Resources */,
+				DF86ECB528FC894800F80EAD /* Script.js in Resources */,
+				DF86ECAF28FC894800F80EAD /* Main.html in Resources */,
+				DF86ECBC28FC894900F80EAD /* Assets.xcassets in Resources */,
+				DF86ECB328FC894800F80EAD /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF86ECC228FC894900F80EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86ECE428FC894900F80EAD /* config.ts in Resources */,
+				DF86ECE628FC894900F80EAD /* background_scripts in Resources */,
+				DF86ECDF28FC894900F80EAD /* dist in Resources */,
+				DF86ECE128FC894900F80EAD /* manifest.json in Resources */,
+				DF86ECE028FC894900F80EAD /* icons in Resources */,
+				DF86ECE328FC894900F80EAD /* icons_normal in Resources */,
+				DF86ECE228FC894900F80EAD /* icons_active in Resources */,
+				DF86ECE528FC894900F80EAD /* content_scripts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF86ECA328FC894800F80EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86ECB728FC894800F80EAD /* ViewController.swift in Sources */,
+				DF86ECAB28FC894800F80EAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF86ECC028FC894900F80EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86ECCA28FC894900F80EAD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF86ECC728FC894900F80EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF86ECC328FC894900F80EAD /* MetNews.extension Extension */;
+			targetProxy = DF86ECC628FC894900F80EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF86ECAD28FC894800F80EAD /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF86ECAE28FC894800F80EAD /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DF86ECB828FC894800F80EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF86ECB928FC894800F80EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF86ECCD28FC894900F80EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF86ECCE28FC894900F80EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DF86ECD028FC894900F80EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MetNews.extension Extension/MetNews_extension_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRN75VMQFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MetNews.extension Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MetNews.extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.metnews.MetNews-extension.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF86ECD128FC894900F80EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MetNews.extension Extension/MetNews_extension_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRN75VMQFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MetNews.extension Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MetNews.extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.metnews.MetNews-extension.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF86ECD428FC894900F80EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetNews.extension/MetNews.extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRN75VMQFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetNews.extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MetNews.extension;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.metnews.MetNews-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF86ECD528FC894900F80EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetNews.extension/MetNews.extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRN75VMQFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetNews.extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MetNews.extension;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.metnews.MetNews-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF86ECA228FC894800F80EAD /* Build configuration list for PBXProject "MetNews.extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF86ECCD28FC894900F80EAD /* Debug */,
+				DF86ECCE28FC894900F80EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF86ECCF28FC894900F80EAD /* Build configuration list for PBXNativeTarget "MetNews.extension Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF86ECD028FC894900F80EAD /* Debug */,
+				DF86ECD128FC894900F80EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF86ECD328FC894900F80EAD /* Build configuration list for PBXNativeTarget "MetNews.extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF86ECD428FC894900F80EAD /* Debug */,
+				DF86ECD528FC894900F80EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF86EC9F28FC894800F80EAD /* Project object */;
+}
